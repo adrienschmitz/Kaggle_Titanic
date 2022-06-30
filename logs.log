@@ -12,3 +12,43 @@
 2022-06-29 13:36:25,042:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\seaborn\_decorators.py:36: FutureWarning: Pass the following variable as a keyword arg: x. From version 0.12, the only valid positional argument will be `data`, and passing other arguments without an explicit keyword will result in an error or misinterpretation.
   warnings.warn(
 
+2022-06-30 07:47:54,042:WARNING:No module named 'cuml'.
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-06-30 07:47:54,043:WARNING:No module named 'cuml'.
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-06-30 07:47:54,044:WARNING:No module named 'cuml'.
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-06-30 07:47:54,044:WARNING:No module named 'cuml'.
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-06-30 07:48:01,073:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\seaborn\distributions.py:2619: FutureWarning: `distplot` is a deprecated function and will be removed in a future version. Please adapt your code to use either `displot` (a figure-level function with similar flexibility) or `histplot` (an axes-level function for histograms).
+  warnings.warn(msg, FutureWarning)
+
+2022-06-30 07:48:01,493:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\seaborn\distributions.py:2619: FutureWarning: `distplot` is a deprecated function and will be removed in a future version. Please adapt your code to use either `displot` (a figure-level function with similar flexibility) or `histplot` (an axes-level function for histograms).
+  warnings.warn(msg, FutureWarning)
+
+2022-06-30 07:48:06,146:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\seaborn\categorical.py:3717: UserWarning: The `factorplot` function has been renamed to `catplot`. The original name will be removed in a future release. Please update your code. Note that the default `kind` in `factorplot` (`'point'`) has changed `'strip'` in `catplot`.
+  warnings.warn(msg)
+
+2022-06-30 07:48:06,146:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\seaborn\_decorators.py:36: FutureWarning: Pass the following variable as a keyword arg: x. From version 0.12, the only valid positional argument will be `data`, and passing other arguments without an explicit keyword will result in an error or misinterpretation.
+  warnings.warn(
+
+2022-06-30 18:26:56,013:WARNING:No module named 'cuml'.
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-06-30 18:26:56,014:WARNING:No module named 'cuml'.
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-06-30 18:26:56,015:WARNING:No module named 'cuml'.
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-06-30 18:26:56,016:WARNING:No module named 'cuml'.
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-06-30 18:26:57,996:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\seaborn\distributions.py:2619: FutureWarning: `distplot` is a deprecated function and will be removed in a future version. Please adapt your code to use either `displot` (a figure-level function with similar flexibility) or `histplot` (an axes-level function for histograms).
+  warnings.warn(msg, FutureWarning)
+
+2022-06-30 18:26:58,238:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\seaborn\distributions.py:2619: FutureWarning: `distplot` is a deprecated function and will be removed in a future version. Please adapt your code to use either `displot` (a figure-level function with similar flexibility) or `histplot` (an axes-level function for histograms).
+  warnings.warn(msg, FutureWarning)
+
+2022-06-30 18:26:59,687:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\seaborn\categorical.py:3717: UserWarning: The `factorplot` function has been renamed to `catplot`. The original name will be removed in a future release. Please update your code. Note that the default `kind` in `factorplot` (`'point'`) has changed `'strip'` in `catplot`.
+  warnings.warn(msg)
+
+2022-06-30 18:26:59,687:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\seaborn\_decorators.py:36: FutureWarning: Pass the following variable as a keyword arg: x. From version 0.12, the only valid positional argument will be `data`, and passing other arguments without an explicit keyword will result in an error or misinterpretation.
+  warnings.warn(
+
