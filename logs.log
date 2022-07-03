@@ -10434,3 +10434,1461 @@ Alternately, you can install this by running `pip install pycaret[models]`
                random_state=4313, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
                subsample=1.0, subsample_for_bin=200000, subsample_freq=0)
 2022-07-03 10:16:51,327:INFO:compare_models() successfully completed......................................
+2022-07-03 12:05:42,520:WARNING:No module named 'cuml'.
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-07-03 12:05:42,521:WARNING:No module named 'cuml'.
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-07-03 12:05:42,522:WARNING:No module named 'cuml'.
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-07-03 12:05:42,522:WARNING:No module named 'cuml'.
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-07-03 12:05:45,141:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\seaborn\distributions.py:2619: FutureWarning: `distplot` is a deprecated function and will be removed in a future version. Please adapt your code to use either `displot` (a figure-level function with similar flexibility) or `histplot` (an axes-level function for histograms).
+  warnings.warn(msg, FutureWarning)
+
+2022-07-03 12:05:45,353:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\seaborn\distributions.py:2619: FutureWarning: `distplot` is a deprecated function and will be removed in a future version. Please adapt your code to use either `displot` (a figure-level function with similar flexibility) or `histplot` (an axes-level function for histograms).
+  warnings.warn(msg, FutureWarning)
+
+2022-07-03 12:05:46,565:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\seaborn\categorical.py:3717: UserWarning: The `factorplot` function has been renamed to `catplot`. The original name will be removed in a future release. Please update your code. Note that the default `kind` in `factorplot` (`'point'`) has changed `'strip'` in `catplot`.
+  warnings.warn(msg)
+
+2022-07-03 12:05:46,565:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\seaborn\_decorators.py:36: FutureWarning: Pass the following variable as a keyword arg: x. From version 0.12, the only valid positional argument will be `data`, and passing other arguments without an explicit keyword will result in an error or misinterpretation.
+  warnings.warn(
+
+2022-07-03 12:05:50,562:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\seaborn\_decorators.py:36: FutureWarning: Pass the following variable as a keyword arg: x. From version 0.12, the only valid positional argument will be `data`, and passing other arguments without an explicit keyword will result in an error or misinterpretation.
+  warnings.warn(
+
+2022-07-03 12:05:50,780:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\seaborn\categorical.py:3717: UserWarning: The `factorplot` function has been renamed to `catplot`. The original name will be removed in a future release. Please update your code. Note that the default `kind` in `factorplot` (`'point'`) has changed `'strip'` in `catplot`.
+  warnings.warn(msg)
+
+2022-07-03 12:05:52,285:WARNING:C:\Users\Adrien\AppData\Local\Temp\ipykernel_11428\3243491035.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  train['Survived'] = train['Survived'].astype('int')
+
+2022-07-03 12:05:52,511:INFO:PyCaret ClassificationExperiment
+2022-07-03 12:05:52,511:INFO:Logging name: clf-default-name
+2022-07-03 12:05:52,511:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2022-07-03 12:05:52,511:INFO:version 3.0.0.rc2
+2022-07-03 12:05:52,511:INFO:Initializing setup()
+2022-07-03 12:05:52,511:INFO:self.USI: add4
+2022-07-03 12:05:52,511:INFO:self.variable_keys: {'html_param', '_gpu_n_jobs_param', 'exp_name_log', '_all_models_internal', 'memory', 'y_test', 'master_model_container', 'X', '_ml_usecase', 'exp_id', 'seed', 'variable_keys', 'n_jobs_param', 'idx', 'USI', 'log_plots_param', 'gpu_param', 'y_train', 'data', 'display_container', '_all_metrics', 'logging_param', 'X_test', 'target_param', '_available_plots', 'X_train', '_is_multiclass', 'fold_shuffle_param', 'pipeline', 'fix_imbalance', 'y', 'fold_generator', '_all_models', 'fold_groups_param'}
+2022-07-03 12:05:52,512:INFO:Checking environment
+2022-07-03 12:05:52,512:INFO:python_version: 3.8.10
+2022-07-03 12:05:52,512:INFO:python_build: ('tags/v3.8.10:3d8993a', 'May  3 2021 11:48:03')
+2022-07-03 12:05:52,512:INFO:machine: AMD64
+2022-07-03 12:05:52,512:INFO:platform: Windows-10-10.0.22000-SP0
+2022-07-03 12:05:52,512:INFO:Memory: svmem(total=25719996416, available=15370149888, percent=40.2, used=10349846528, free=15370149888)
+2022-07-03 12:05:52,512:INFO:Physical Core: 4
+2022-07-03 12:05:52,512:INFO:Logical Core: 4
+2022-07-03 12:05:52,512:INFO:Checking libraries
+2022-07-03 12:05:52,512:INFO:System:
+2022-07-03 12:05:52,512:INFO:    python: 3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)]
+2022-07-03 12:05:52,512:INFO:executable: c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\Scripts\python.exe
+2022-07-03 12:05:52,512:INFO:   machine: Windows-10-10.0.22000-SP0
+2022-07-03 12:05:52,513:INFO:PyCaret required dependencies:
+2022-07-03 12:05:53,173:INFO:                 pip: 22.1.2
+2022-07-03 12:05:53,173:INFO:          setuptools: 56.0.0
+2022-07-03 12:05:53,173:INFO:             pycaret: 3.0.0.rc2
+2022-07-03 12:05:53,173:INFO:             IPython: 8.4.0
+2022-07-03 12:05:53,173:INFO:          ipywidgets: 8.0.0rc0
+2022-07-03 12:05:53,173:INFO:                tqdm: 4.64.0
+2022-07-03 12:05:53,174:INFO:               numpy: 1.21.6
+2022-07-03 12:05:53,174:INFO:              pandas: 1.4.3
+2022-07-03 12:05:53,174:INFO:              jinja2: 3.1.2
+2022-07-03 12:05:53,174:INFO:               scipy: 1.5.4
+2022-07-03 12:05:53,174:INFO:              joblib: 1.1.0
+2022-07-03 12:05:53,174:INFO:             sklearn: 1.1.1
+2022-07-03 12:05:53,174:INFO:                pyod: Installed but version unavailable
+2022-07-03 12:05:53,174:INFO:            imblearn: 0.9.1
+2022-07-03 12:05:53,174:INFO:   category_encoders: 2.5.0
+2022-07-03 12:05:53,174:INFO:            lightgbm: 3.3.2
+2022-07-03 12:05:53,174:INFO:               numba: 0.55.2
+2022-07-03 12:05:53,174:INFO:            requests: 2.28.0
+2022-07-03 12:05:53,174:INFO:          matplotlib: 3.5.2
+2022-07-03 12:05:53,174:INFO:          scikitplot: 0.3.7
+2022-07-03 12:05:53,174:INFO:         yellowbrick: 1.4
+2022-07-03 12:05:53,174:INFO:              plotly: 5.9.0
+2022-07-03 12:05:53,174:INFO:             kaleido: 0.2.1
+2022-07-03 12:05:53,174:INFO:         statsmodels: 0.13.2
+2022-07-03 12:05:53,174:INFO:              sktime: 0.12.1
+2022-07-03 12:05:53,174:INFO:               tbats: Installed but version unavailable
+2022-07-03 12:05:53,174:INFO:            pmdarima: 1.8.5
+2022-07-03 12:05:53,174:INFO:              psutil: 5.9.1
+2022-07-03 12:05:53,174:INFO:None
+2022-07-03 12:05:53,175:INFO:Set up data.
+2022-07-03 12:05:53,181:INFO:Set up train/test split.
+2022-07-03 12:05:53,186:INFO:Assigning column types.
+2022-07-03 12:05:53,190:INFO:Set up folding strategy.
+2022-07-03 12:05:53,190:INFO:Preparing preprocessing pipeline...
+2022-07-03 12:05:53,190:INFO:Set up simple imputation.
+2022-07-03 12:05:53,220:INFO:Finished creating preprocessing pipeline.
+2022-07-03 12:05:53,222:INFO:Pipeline: Pipeline(memory=Memory(location=C:\Users\Adrien\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None, include=['Pclass', 'Sex', 'Age', 'Fare', 'IsAlone', 'Age*Class', 'Title_Master', 'Title_Miss', 'Title_Mr', 'Title_Mrs', 'Title_Rare', 'Em_C', 'Em_Q', 'Em_S'], transformer=SimpleImputer(add_indicator=False, copy=True, fill_value=None, missing_values=nan, strategy='mean', verbose='deprecated'))),
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[], transformer=SimpleImputer(add_indicator=False, copy=True, fill_value='constant', missing_values=nan, strategy='constant', verbose='deprecated')))],
+         verbose=False)
+2022-07-03 12:05:53,222:INFO:Creating final display dataframe.
+2022-07-03 12:05:53,276:INFO:Setup display_container:                     Description             Value
+0                    Session id              1128
+1                        Target          Survived
+2                   Target type            Binary
+3           Original data shape         (891, 15)
+4        Transformed data shape         (891, 15)
+5   Transformed train set shape         (623, 15)
+6    Transformed test set shape         (268, 15)
+7              Numeric features                14
+8                    Preprocess              True
+9               Imputation type            simple
+10           Numeric imputation              mean
+11       Categorical imputation          constant
+12               Fold Generator   StratifiedKFold
+13                  Fold Number                10
+14                     CPU Jobs                -1
+15                      Use GPU             False
+16               Log Experiment             False
+17              Experiment Name  clf-default-name
+18                          USI              add4
+2022-07-03 12:05:53,373:WARNING:No module named 'xgboost'.
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-07-03 12:05:53,374:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-07-03 12:05:53,456:WARNING:No module named 'xgboost'.
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-07-03 12:05:53,457:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-07-03 12:05:53,467:INFO:setup() successfully completed in 0.96s...............
+2022-07-03 12:05:53,499:INFO:Initializing compare_models()
+2022-07-03 12:05:53,499:INFO:compare_models(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000252BB15E190>, include=None, fold=None, round=4, cross_validation=True, sort=Accuracy, n_select=1, budget_time=None, turbo=True, errors=ignore, fit_kwargs=None, groups=None, experiment_custom_tags=None, probability_threshold=None, verbose=True, parallel=None, caller_params={'self': <pycaret.classification.oop.ClassificationExperiment object at 0x00000252BB15E190>, 'include': None, 'exclude': None, 'fold': None, 'round': 4, 'cross_validation': True, 'sort': 'Accuracy', 'n_select': 1, 'budget_time': None, 'turbo': True, 'errors': 'ignore', 'fit_kwargs': None, 'groups': None, 'experiment_custom_tags': None, 'probability_threshold': None, 'verbose': True, 'parallel': None, '__class__': <class 'pycaret.classification.oop.ClassificationExperiment'>}, exclude=None)
+2022-07-03 12:05:53,499:INFO:Checking exceptions
+2022-07-03 12:05:53,504:INFO:Preparing display monitor
+2022-07-03 12:05:53,547:INFO:Initializing Logistic Regression
+2022-07-03 12:05:53,547:INFO:Total runtime is 0.0 minutes
+2022-07-03 12:05:53,550:INFO:SubProcess create_model() called ==================================
+2022-07-03 12:05:53,551:INFO:Initializing create_model()
+2022-07-03 12:05:53,551:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000252BB15E190>, estimator=lr, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000252BB0C9D60>, return_train_score=False, kwargs={})
+2022-07-03 12:05:53,552:INFO:Checking exceptions
+2022-07-03 12:05:53,554:INFO:Importing libraries
+2022-07-03 12:05:53,554:INFO:Copying training dataset
+2022-07-03 12:05:53,557:INFO:Defining folds
+2022-07-03 12:05:53,557:INFO:Declaring metric variables
+2022-07-03 12:05:53,562:INFO:Importing untrained model
+2022-07-03 12:05:53,567:INFO:Logistic Regression Imported successfully
+2022-07-03 12:05:53,582:INFO:Starting cross validation
+2022-07-03 12:05:53,583:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-07-03 12:05:57,084:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,088:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,092:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,096:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,116:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,121:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,191:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,198:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,300:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,311:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,315:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,315:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,320:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,321:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,393:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,397:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,412:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,417:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,428:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,435:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,461:INFO:Calculating mean and std
+2022-07-03 12:05:57,463:INFO:Creating metrics dataframe
+2022-07-03 12:05:57,467:INFO:Uploading results into container
+2022-07-03 12:05:57,468:INFO:Uploading model into container now
+2022-07-03 12:05:57,469:INFO:master_model_container: 1
+2022-07-03 12:05:57,469:INFO:display_container: 2
+2022-07-03 12:05:57,470:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=1128, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2022-07-03 12:05:57,470:INFO:create_model() successfully completed......................................
+2022-07-03 12:05:57,602:INFO:SubProcess create_model() end ==================================
+2022-07-03 12:05:57,602:INFO:Creating metrics dataframe
+2022-07-03 12:05:57,613:INFO:Initializing K Neighbors Classifier
+2022-07-03 12:05:57,613:INFO:Total runtime is 0.06777080297470092 minutes
+2022-07-03 12:05:57,616:INFO:SubProcess create_model() called ==================================
+2022-07-03 12:05:57,616:INFO:Initializing create_model()
+2022-07-03 12:05:57,616:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000252BB15E190>, estimator=knn, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000252BB0C9D60>, return_train_score=False, kwargs={})
+2022-07-03 12:05:57,617:INFO:Checking exceptions
+2022-07-03 12:05:57,619:INFO:Importing libraries
+2022-07-03 12:05:57,619:INFO:Copying training dataset
+2022-07-03 12:05:57,623:INFO:Defining folds
+2022-07-03 12:05:57,623:INFO:Declaring metric variables
+2022-07-03 12:05:57,627:INFO:Importing untrained model
+2022-07-03 12:05:57,632:INFO:K Neighbors Classifier Imported successfully
+2022-07-03 12:05:57,641:INFO:Starting cross validation
+2022-07-03 12:05:57,641:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-07-03 12:05:57,673:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,674:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,674:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,686:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,700:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,700:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,700:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,711:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,737:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,738:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,745:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,756:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,757:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,767:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,780:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,793:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,795:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,801:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,803:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,808:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:57,821:INFO:Calculating mean and std
+2022-07-03 12:05:57,825:INFO:Creating metrics dataframe
+2022-07-03 12:05:57,828:INFO:Uploading results into container
+2022-07-03 12:05:57,829:INFO:Uploading model into container now
+2022-07-03 12:05:57,829:INFO:master_model_container: 2
+2022-07-03 12:05:57,829:INFO:display_container: 2
+2022-07-03 12:05:57,830:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform')
+2022-07-03 12:05:57,830:INFO:create_model() successfully completed......................................
+2022-07-03 12:05:57,939:INFO:SubProcess create_model() end ==================================
+2022-07-03 12:05:57,940:INFO:Creating metrics dataframe
+2022-07-03 12:05:57,950:INFO:Initializing Naive Bayes
+2022-07-03 12:05:57,950:INFO:Total runtime is 0.07337250709533691 minutes
+2022-07-03 12:05:57,953:INFO:SubProcess create_model() called ==================================
+2022-07-03 12:05:57,954:INFO:Initializing create_model()
+2022-07-03 12:05:57,954:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000252BB15E190>, estimator=nb, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000252BB0C9D60>, return_train_score=False, kwargs={})
+2022-07-03 12:05:57,954:INFO:Checking exceptions
+2022-07-03 12:05:57,956:INFO:Importing libraries
+2022-07-03 12:05:57,957:INFO:Copying training dataset
+2022-07-03 12:05:57,962:INFO:Defining folds
+2022-07-03 12:05:57,962:INFO:Declaring metric variables
+2022-07-03 12:05:57,966:INFO:Importing untrained model
+2022-07-03 12:05:57,969:INFO:Naive Bayes Imported successfully
+2022-07-03 12:05:57,980:INFO:Starting cross validation
+2022-07-03 12:05:57,981:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-07-03 12:05:58,001:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,003:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,003:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,006:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,007:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,009:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,009:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,014:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,029:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,030:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,034:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,057:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,058:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,062:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,062:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,062:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,066:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,067:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,075:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,084:INFO:Calculating mean and std
+2022-07-03 12:05:58,086:INFO:Creating metrics dataframe
+2022-07-03 12:05:58,090:INFO:Uploading results into container
+2022-07-03 12:05:58,092:INFO:Uploading model into container now
+2022-07-03 12:05:58,092:INFO:master_model_container: 3
+2022-07-03 12:05:58,092:INFO:display_container: 2
+2022-07-03 12:05:58,092:INFO:GaussianNB(priors=None, var_smoothing=1e-09)
+2022-07-03 12:05:58,092:INFO:create_model() successfully completed......................................
+2022-07-03 12:05:58,209:INFO:SubProcess create_model() end ==================================
+2022-07-03 12:05:58,209:INFO:Creating metrics dataframe
+2022-07-03 12:05:58,219:INFO:Initializing Decision Tree Classifier
+2022-07-03 12:05:58,219:INFO:Total runtime is 0.0778605024019877 minutes
+2022-07-03 12:05:58,224:INFO:SubProcess create_model() called ==================================
+2022-07-03 12:05:58,224:INFO:Initializing create_model()
+2022-07-03 12:05:58,224:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000252BB15E190>, estimator=dt, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000252BB0C9D60>, return_train_score=False, kwargs={})
+2022-07-03 12:05:58,224:INFO:Checking exceptions
+2022-07-03 12:05:58,226:INFO:Importing libraries
+2022-07-03 12:05:58,226:INFO:Copying training dataset
+2022-07-03 12:05:58,229:INFO:Defining folds
+2022-07-03 12:05:58,230:INFO:Declaring metric variables
+2022-07-03 12:05:58,234:INFO:Importing untrained model
+2022-07-03 12:05:58,238:INFO:Decision Tree Classifier Imported successfully
+2022-07-03 12:05:58,247:INFO:Starting cross validation
+2022-07-03 12:05:58,248:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-07-03 12:05:58,268:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,269:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,270:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,272:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,274:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,274:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,277:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,278:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,295:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,297:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,300:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,302:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,322:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,325:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,328:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,331:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,335:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,336:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,340:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,341:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,352:INFO:Calculating mean and std
+2022-07-03 12:05:58,355:INFO:Creating metrics dataframe
+2022-07-03 12:05:58,360:INFO:Uploading results into container
+2022-07-03 12:05:58,361:INFO:Uploading model into container now
+2022-07-03 12:05:58,361:INFO:master_model_container: 4
+2022-07-03 12:05:58,362:INFO:display_container: 2
+2022-07-03 12:05:58,362:INFO:DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       random_state=1128, splitter='best')
+2022-07-03 12:05:58,362:INFO:create_model() successfully completed......................................
+2022-07-03 12:05:58,478:INFO:SubProcess create_model() end ==================================
+2022-07-03 12:05:58,478:INFO:Creating metrics dataframe
+2022-07-03 12:05:58,487:INFO:Initializing SVM - Linear Kernel
+2022-07-03 12:05:58,488:INFO:Total runtime is 0.08234850962956745 minutes
+2022-07-03 12:05:58,491:INFO:SubProcess create_model() called ==================================
+2022-07-03 12:05:58,492:INFO:Initializing create_model()
+2022-07-03 12:05:58,492:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000252BB15E190>, estimator=svm, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000252BB0C9D60>, return_train_score=False, kwargs={})
+2022-07-03 12:05:58,492:INFO:Checking exceptions
+2022-07-03 12:05:58,494:INFO:Importing libraries
+2022-07-03 12:05:58,494:INFO:Copying training dataset
+2022-07-03 12:05:58,497:INFO:Defining folds
+2022-07-03 12:05:58,498:INFO:Declaring metric variables
+2022-07-03 12:05:58,502:INFO:Importing untrained model
+2022-07-03 12:05:58,506:INFO:SVM - Linear Kernel Imported successfully
+2022-07-03 12:05:58,514:INFO:Starting cross validation
+2022-07-03 12:05:58,515:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-07-03 12:05:58,536:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,537:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,541:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,542:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,545:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,545:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,551:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,553:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,564:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,564:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,568:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,568:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,580:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,585:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,587:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,588:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,591:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,593:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,593:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,598:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,602:INFO:Calculating mean and std
+2022-07-03 12:05:58,604:INFO:Creating metrics dataframe
+2022-07-03 12:05:58,609:INFO:Uploading results into container
+2022-07-03 12:05:58,610:INFO:Uploading model into container now
+2022-07-03 12:05:58,610:INFO:master_model_container: 5
+2022-07-03 12:05:58,611:INFO:display_container: 2
+2022-07-03 12:05:58,611:INFO:SGDClassifier(alpha=0.0001, average=False, class_weight=None,
+              early_stopping=False, epsilon=0.1, eta0=0.001, fit_intercept=True,
+              l1_ratio=0.15, learning_rate='optimal', loss='hinge',
+              max_iter=1000, n_iter_no_change=5, n_jobs=-1, penalty='l2',
+              power_t=0.5, random_state=1128, shuffle=True, tol=0.001,
+              validation_fraction=0.1, verbose=0, warm_start=False)
+2022-07-03 12:05:58,611:INFO:create_model() successfully completed......................................
+2022-07-03 12:05:58,730:INFO:SubProcess create_model() end ==================================
+2022-07-03 12:05:58,730:INFO:Creating metrics dataframe
+2022-07-03 12:05:58,742:INFO:Initializing Ridge Classifier
+2022-07-03 12:05:58,742:INFO:Total runtime is 0.08657906452814737 minutes
+2022-07-03 12:05:58,745:INFO:SubProcess create_model() called ==================================
+2022-07-03 12:05:58,746:INFO:Initializing create_model()
+2022-07-03 12:05:58,746:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000252BB15E190>, estimator=ridge, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000252BB0C9D60>, return_train_score=False, kwargs={})
+2022-07-03 12:05:58,746:INFO:Checking exceptions
+2022-07-03 12:05:58,748:INFO:Importing libraries
+2022-07-03 12:05:58,748:INFO:Copying training dataset
+2022-07-03 12:05:58,752:INFO:Defining folds
+2022-07-03 12:05:58,752:INFO:Declaring metric variables
+2022-07-03 12:05:58,755:INFO:Importing untrained model
+2022-07-03 12:05:58,761:INFO:Ridge Classifier Imported successfully
+2022-07-03 12:05:58,768:INFO:Starting cross validation
+2022-07-03 12:05:58,769:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-07-03 12:05:58,793:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,793:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,794:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,797:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,798:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,798:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,798:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,803:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,814:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,816:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,820:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,821:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,821:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,830:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,838:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,839:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,844:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,845:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,861:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,867:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:58,877:INFO:Calculating mean and std
+2022-07-03 12:05:58,880:INFO:Creating metrics dataframe
+2022-07-03 12:05:58,886:INFO:Uploading results into container
+2022-07-03 12:05:58,886:INFO:Uploading model into container now
+2022-07-03 12:05:58,887:INFO:master_model_container: 6
+2022-07-03 12:05:58,887:INFO:display_container: 2
+2022-07-03 12:05:58,888:INFO:RidgeClassifier(alpha=1.0, class_weight=None, copy_X=True, fit_intercept=True,
+                max_iter=None, normalize='deprecated', positive=False,
+                random_state=1128, solver='auto', tol=0.001)
+2022-07-03 12:05:58,888:INFO:create_model() successfully completed......................................
+2022-07-03 12:05:59,050:INFO:SubProcess create_model() end ==================================
+2022-07-03 12:05:59,050:INFO:Creating metrics dataframe
+2022-07-03 12:05:59,064:INFO:Initializing Random Forest Classifier
+2022-07-03 12:05:59,064:INFO:Total runtime is 0.09193990230560302 minutes
+2022-07-03 12:05:59,069:INFO:SubProcess create_model() called ==================================
+2022-07-03 12:05:59,070:INFO:Initializing create_model()
+2022-07-03 12:05:59,070:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000252BB15E190>, estimator=rf, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000252BB0C9D60>, return_train_score=False, kwargs={})
+2022-07-03 12:05:59,070:INFO:Checking exceptions
+2022-07-03 12:05:59,072:INFO:Importing libraries
+2022-07-03 12:05:59,072:INFO:Copying training dataset
+2022-07-03 12:05:59,079:INFO:Defining folds
+2022-07-03 12:05:59,079:INFO:Declaring metric variables
+2022-07-03 12:05:59,086:INFO:Importing untrained model
+2022-07-03 12:05:59,090:INFO:Random Forest Classifier Imported successfully
+2022-07-03 12:05:59,100:INFO:Starting cross validation
+2022-07-03 12:05:59,101:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-07-03 12:05:59,298:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:59,311:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:59,320:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:59,394:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:59,418:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:59,438:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:59,449:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:59,502:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:59,662:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:59,669:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:59,694:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:59,700:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:59,727:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:59,792:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:59,821:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:59,850:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:59,945:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:59,971:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:05:59,979:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,020:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,069:INFO:Calculating mean and std
+2022-07-03 12:06:00,071:INFO:Creating metrics dataframe
+2022-07-03 12:06:00,079:INFO:Uploading results into container
+2022-07-03 12:06:00,080:INFO:Uploading model into container now
+2022-07-03 12:06:00,080:INFO:master_model_container: 7
+2022-07-03 12:06:00,080:INFO:display_container: 2
+2022-07-03 12:06:00,081:INFO:RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=100, n_jobs=-1, oob_score=False,
+                       random_state=1128, verbose=0, warm_start=False)
+2022-07-03 12:06:00,081:INFO:create_model() successfully completed......................................
+2022-07-03 12:06:00,231:INFO:SubProcess create_model() end ==================================
+2022-07-03 12:06:00,231:INFO:Creating metrics dataframe
+2022-07-03 12:06:00,243:INFO:Initializing Quadratic Discriminant Analysis
+2022-07-03 12:06:00,243:INFO:Total runtime is 0.11160460313161213 minutes
+2022-07-03 12:06:00,247:INFO:SubProcess create_model() called ==================================
+2022-07-03 12:06:00,247:INFO:Initializing create_model()
+2022-07-03 12:06:00,247:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000252BB15E190>, estimator=qda, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000252BB0C9D60>, return_train_score=False, kwargs={})
+2022-07-03 12:06:00,247:INFO:Checking exceptions
+2022-07-03 12:06:00,249:INFO:Importing libraries
+2022-07-03 12:06:00,250:INFO:Copying training dataset
+2022-07-03 12:06:00,253:INFO:Defining folds
+2022-07-03 12:06:00,253:INFO:Declaring metric variables
+2022-07-03 12:06:00,257:INFO:Importing untrained model
+2022-07-03 12:06:00,262:INFO:Quadratic Discriminant Analysis Imported successfully
+2022-07-03 12:06:00,270:INFO:Starting cross validation
+2022-07-03 12:06:00,271:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-07-03 12:06:00,289:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2022-07-03 12:06:00,290:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,290:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2022-07-03 12:06:00,291:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,292:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2022-07-03 12:06:00,293:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,296:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2022-07-03 12:06:00,296:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,296:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,296:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,297:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,303:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,328:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2022-07-03 12:06:00,328:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2022-07-03 12:06:00,328:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,329:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,329:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2022-07-03 12:06:00,329:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,335:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,336:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,336:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,364:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2022-07-03 12:06:00,364:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,371:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,389:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2022-07-03 12:06:00,389:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2022-07-03 12:06:00,389:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,389:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,397:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,401:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,424:INFO:Calculating mean and std
+2022-07-03 12:06:00,428:INFO:Creating metrics dataframe
+2022-07-03 12:06:00,435:INFO:Uploading results into container
+2022-07-03 12:06:00,435:INFO:Uploading model into container now
+2022-07-03 12:06:00,436:INFO:master_model_container: 8
+2022-07-03 12:06:00,436:INFO:display_container: 2
+2022-07-03 12:06:00,436:INFO:QuadraticDiscriminantAnalysis(priors=None, reg_param=0.0,
+                              store_covariance=False, tol=0.0001)
+2022-07-03 12:06:00,436:INFO:create_model() successfully completed......................................
+2022-07-03 12:06:00,586:INFO:SubProcess create_model() end ==================================
+2022-07-03 12:06:00,586:INFO:Creating metrics dataframe
+2022-07-03 12:06:00,603:INFO:Initializing Ada Boost Classifier
+2022-07-03 12:06:00,603:INFO:Total runtime is 0.11758860349655151 minutes
+2022-07-03 12:06:00,606:INFO:SubProcess create_model() called ==================================
+2022-07-03 12:06:00,607:INFO:Initializing create_model()
+2022-07-03 12:06:00,607:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000252BB15E190>, estimator=ada, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000252BB0C9D60>, return_train_score=False, kwargs={})
+2022-07-03 12:06:00,607:INFO:Checking exceptions
+2022-07-03 12:06:00,610:INFO:Importing libraries
+2022-07-03 12:06:00,611:INFO:Copying training dataset
+2022-07-03 12:06:00,615:INFO:Defining folds
+2022-07-03 12:06:00,615:INFO:Declaring metric variables
+2022-07-03 12:06:00,619:INFO:Importing untrained model
+2022-07-03 12:06:00,626:INFO:Ada Boost Classifier Imported successfully
+2022-07-03 12:06:00,633:INFO:Starting cross validation
+2022-07-03 12:06:00,634:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-07-03 12:06:00,801:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,819:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,832:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,840:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,848:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,849:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,857:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,858:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,970:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:00,983:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,011:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,012:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,013:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,022:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,023:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,035:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,100:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,113:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,130:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,140:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,156:INFO:Calculating mean and std
+2022-07-03 12:06:01,158:INFO:Creating metrics dataframe
+2022-07-03 12:06:01,163:INFO:Uploading results into container
+2022-07-03 12:06:01,163:INFO:Uploading model into container now
+2022-07-03 12:06:01,163:INFO:master_model_container: 9
+2022-07-03 12:06:01,164:INFO:display_container: 2
+2022-07-03 12:06:01,164:INFO:AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None, learning_rate=1.0,
+                   n_estimators=50, random_state=1128)
+2022-07-03 12:06:01,164:INFO:create_model() successfully completed......................................
+2022-07-03 12:06:01,292:INFO:SubProcess create_model() end ==================================
+2022-07-03 12:06:01,294:INFO:Creating metrics dataframe
+2022-07-03 12:06:01,314:INFO:Initializing Gradient Boosting Classifier
+2022-07-03 12:06:01,314:INFO:Total runtime is 0.1294493357340495 minutes
+2022-07-03 12:06:01,318:INFO:SubProcess create_model() called ==================================
+2022-07-03 12:06:01,319:INFO:Initializing create_model()
+2022-07-03 12:06:01,319:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000252BB15E190>, estimator=gbc, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000252BB0C9D60>, return_train_score=False, kwargs={})
+2022-07-03 12:06:01,319:INFO:Checking exceptions
+2022-07-03 12:06:01,321:INFO:Importing libraries
+2022-07-03 12:06:01,322:INFO:Copying training dataset
+2022-07-03 12:06:01,325:INFO:Defining folds
+2022-07-03 12:06:01,326:INFO:Declaring metric variables
+2022-07-03 12:06:01,331:INFO:Importing untrained model
+2022-07-03 12:06:01,335:INFO:Gradient Boosting Classifier Imported successfully
+2022-07-03 12:06:01,343:INFO:Starting cross validation
+2022-07-03 12:06:01,345:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-07-03 12:06:01,463:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,463:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,467:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,468:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,475:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,482:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,482:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,488:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,601:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,605:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,613:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,618:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,631:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,636:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,640:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,647:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,717:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,721:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,730:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,734:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,742:INFO:Calculating mean and std
+2022-07-03 12:06:01,745:INFO:Creating metrics dataframe
+2022-07-03 12:06:01,748:INFO:Uploading results into container
+2022-07-03 12:06:01,749:INFO:Uploading model into container now
+2022-07-03 12:06:01,749:INFO:master_model_container: 10
+2022-07-03 12:06:01,750:INFO:display_container: 2
+2022-07-03 12:06:01,750:INFO:GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=1128, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False)
+2022-07-03 12:06:01,750:INFO:create_model() successfully completed......................................
+2022-07-03 12:06:01,864:INFO:SubProcess create_model() end ==================================
+2022-07-03 12:06:01,864:INFO:Creating metrics dataframe
+2022-07-03 12:06:01,876:INFO:Initializing Linear Discriminant Analysis
+2022-07-03 12:06:01,877:INFO:Total runtime is 0.13882426420847577 minutes
+2022-07-03 12:06:01,882:INFO:SubProcess create_model() called ==================================
+2022-07-03 12:06:01,882:INFO:Initializing create_model()
+2022-07-03 12:06:01,882:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000252BB15E190>, estimator=lda, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000252BB0C9D60>, return_train_score=False, kwargs={})
+2022-07-03 12:06:01,882:INFO:Checking exceptions
+2022-07-03 12:06:01,884:INFO:Importing libraries
+2022-07-03 12:06:01,884:INFO:Copying training dataset
+2022-07-03 12:06:01,888:INFO:Defining folds
+2022-07-03 12:06:01,889:INFO:Declaring metric variables
+2022-07-03 12:06:01,893:INFO:Importing untrained model
+2022-07-03 12:06:01,898:INFO:Linear Discriminant Analysis Imported successfully
+2022-07-03 12:06:01,905:INFO:Starting cross validation
+2022-07-03 12:06:01,906:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-07-03 12:06:01,925:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,925:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,930:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,931:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,931:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,935:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,940:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,945:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,953:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,955:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,957:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,961:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,968:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,972:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,979:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,984:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,986:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,987:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,988:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:01,992:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:02,003:INFO:Calculating mean and std
+2022-07-03 12:06:02,005:INFO:Creating metrics dataframe
+2022-07-03 12:06:02,009:INFO:Uploading results into container
+2022-07-03 12:06:02,010:INFO:Uploading model into container now
+2022-07-03 12:06:02,011:INFO:master_model_container: 11
+2022-07-03 12:06:02,011:INFO:display_container: 2
+2022-07-03 12:06:02,011:INFO:LinearDiscriminantAnalysis(covariance_estimator=None, n_components=None,
+                           priors=None, shrinkage=None, solver='svd',
+                           store_covariance=False, tol=0.0001)
+2022-07-03 12:06:02,011:INFO:create_model() successfully completed......................................
+2022-07-03 12:06:02,141:INFO:SubProcess create_model() end ==================================
+2022-07-03 12:06:02,141:INFO:Creating metrics dataframe
+2022-07-03 12:06:02,156:INFO:Initializing Extra Trees Classifier
+2022-07-03 12:06:02,156:INFO:Total runtime is 0.14347852468490602 minutes
+2022-07-03 12:06:02,159:INFO:SubProcess create_model() called ==================================
+2022-07-03 12:06:02,159:INFO:Initializing create_model()
+2022-07-03 12:06:02,159:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000252BB15E190>, estimator=et, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000252BB0C9D60>, return_train_score=False, kwargs={})
+2022-07-03 12:06:02,159:INFO:Checking exceptions
+2022-07-03 12:06:02,163:INFO:Importing libraries
+2022-07-03 12:06:02,163:INFO:Copying training dataset
+2022-07-03 12:06:02,166:INFO:Defining folds
+2022-07-03 12:06:02,167:INFO:Declaring metric variables
+2022-07-03 12:06:02,171:INFO:Importing untrained model
+2022-07-03 12:06:02,176:INFO:Extra Trees Classifier Imported successfully
+2022-07-03 12:06:02,184:INFO:Starting cross validation
+2022-07-03 12:06:02,184:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-07-03 12:06:02,315:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:02,316:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:02,321:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:02,338:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:02,340:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:02,359:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:02,401:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:02,434:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:02,516:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:02,542:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:02,580:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:02,606:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:02,619:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:02,638:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:02,651:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:02,678:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:02,770:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:02,791:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:02,806:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:02,828:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:02,851:INFO:Calculating mean and std
+2022-07-03 12:06:02,853:INFO:Creating metrics dataframe
+2022-07-03 12:06:02,856:INFO:Uploading results into container
+2022-07-03 12:06:02,858:INFO:Uploading model into container now
+2022-07-03 12:06:02,858:INFO:master_model_container: 12
+2022-07-03 12:06:02,858:INFO:display_container: 2
+2022-07-03 12:06:02,859:INFO:ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=1128, verbose=0, warm_start=False)
+2022-07-03 12:06:02,859:INFO:create_model() successfully completed......................................
+2022-07-03 12:06:02,967:INFO:SubProcess create_model() end ==================================
+2022-07-03 12:06:02,967:INFO:Creating metrics dataframe
+2022-07-03 12:06:02,981:INFO:Initializing Light Gradient Boosting Machine
+2022-07-03 12:06:02,981:INFO:Total runtime is 0.15723411242167157 minutes
+2022-07-03 12:06:02,984:INFO:SubProcess create_model() called ==================================
+2022-07-03 12:06:02,985:INFO:Initializing create_model()
+2022-07-03 12:06:02,985:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000252BB15E190>, estimator=lightgbm, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000252BB0C9D60>, return_train_score=False, kwargs={})
+2022-07-03 12:06:02,985:INFO:Checking exceptions
+2022-07-03 12:06:02,987:INFO:Importing libraries
+2022-07-03 12:06:02,987:INFO:Copying training dataset
+2022-07-03 12:06:02,990:INFO:Defining folds
+2022-07-03 12:06:02,990:INFO:Declaring metric variables
+2022-07-03 12:06:02,995:INFO:Importing untrained model
+2022-07-03 12:06:02,999:INFO:Light Gradient Boosting Machine Imported successfully
+2022-07-03 12:06:03,006:INFO:Starting cross validation
+2022-07-03 12:06:03,006:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-07-03 12:06:03,069:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,070:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,073:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,074:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,076:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,078:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,117:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,126:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,127:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,160:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,175:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,179:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,185:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,192:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,244:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,257:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,290:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,299:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,315:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,323:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,339:INFO:Calculating mean and std
+2022-07-03 12:06:03,341:INFO:Creating metrics dataframe
+2022-07-03 12:06:03,344:INFO:Uploading results into container
+2022-07-03 12:06:03,347:INFO:Uploading model into container now
+2022-07-03 12:06:03,347:INFO:master_model_container: 13
+2022-07-03 12:06:03,347:INFO:display_container: 2
+2022-07-03 12:06:03,348:INFO:LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=1128, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0)
+2022-07-03 12:06:03,348:INFO:create_model() successfully completed......................................
+2022-07-03 12:06:03,506:INFO:SubProcess create_model() end ==================================
+2022-07-03 12:06:03,506:INFO:Creating metrics dataframe
+2022-07-03 12:06:03,537:INFO:Initializing Dummy Classifier
+2022-07-03 12:06:03,538:INFO:Total runtime is 0.16650933821996056 minutes
+2022-07-03 12:06:03,550:INFO:SubProcess create_model() called ==================================
+2022-07-03 12:06:03,551:INFO:Initializing create_model()
+2022-07-03 12:06:03,551:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000252BB15E190>, estimator=dummy, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000252BB0C9D60>, return_train_score=False, kwargs={})
+2022-07-03 12:06:03,551:INFO:Checking exceptions
+2022-07-03 12:06:03,553:INFO:Importing libraries
+2022-07-03 12:06:03,554:INFO:Copying training dataset
+2022-07-03 12:06:03,564:INFO:Defining folds
+2022-07-03 12:06:03,565:INFO:Declaring metric variables
+2022-07-03 12:06:03,570:INFO:Importing untrained model
+2022-07-03 12:06:03,577:INFO:Dummy Classifier Imported successfully
+2022-07-03 12:06:03,590:INFO:Starting cross validation
+2022-07-03 12:06:03,592:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-07-03 12:06:03,610:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,613:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,615:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,617:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,621:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\metrics\_classification.py:1327: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2022-07-03 12:06:03,625:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\metrics\_classification.py:1327: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2022-07-03 12:06:03,637:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,639:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,640:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,642:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,643:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,643:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,645:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,650:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\metrics\_classification.py:1327: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2022-07-03 12:06:03,650:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\metrics\_classification.py:1327: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2022-07-03 12:06:03,651:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,652:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\metrics\_classification.py:1327: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2022-07-03 12:06:03,660:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\metrics\_classification.py:1327: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2022-07-03 12:06:03,666:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,671:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,671:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,675:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,682:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,682:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,686:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,689:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\metrics\_classification.py:1327: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2022-07-03 12:06:03,690:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-07-03 12:06:03,696:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\metrics\_classification.py:1327: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2022-07-03 12:06:03,698:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\metrics\_classification.py:1327: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2022-07-03 12:06:03,699:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\sklearn\metrics\_classification.py:1327: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2022-07-03 12:06:03,708:INFO:Calculating mean and std
+2022-07-03 12:06:03,710:INFO:Creating metrics dataframe
+2022-07-03 12:06:03,717:INFO:Uploading results into container
+2022-07-03 12:06:03,718:INFO:Uploading model into container now
+2022-07-03 12:06:03,718:INFO:master_model_container: 14
+2022-07-03 12:06:03,718:INFO:display_container: 2
+2022-07-03 12:06:03,718:INFO:DummyClassifier(constant=None, random_state=1128, strategy='prior')
+2022-07-03 12:06:03,718:INFO:create_model() successfully completed......................................
+2022-07-03 12:06:03,843:INFO:SubProcess create_model() end ==================================
+2022-07-03 12:06:03,844:INFO:Creating metrics dataframe
+2022-07-03 12:06:03,872:INFO:Initializing create_model()
+2022-07-03 12:06:03,872:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000252BB15E190>, estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=1128, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, return_train_score=False, kwargs={})
+2022-07-03 12:06:03,873:INFO:Checking exceptions
+2022-07-03 12:06:03,876:INFO:Importing libraries
+2022-07-03 12:06:03,877:INFO:Copying training dataset
+2022-07-03 12:06:03,880:INFO:Defining folds
+2022-07-03 12:06:03,880:INFO:Declaring metric variables
+2022-07-03 12:06:03,880:INFO:Importing untrained model
+2022-07-03 12:06:03,881:INFO:Declaring custom model
+2022-07-03 12:06:03,881:INFO:Gradient Boosting Classifier Imported successfully
+2022-07-03 12:06:03,882:INFO:Cross validation set to False
+2022-07-03 12:06:03,882:INFO:Fitting Model
+2022-07-03 12:06:04,048:INFO:GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=1128, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False)
+2022-07-03 12:06:04,048:INFO:create_model() successfully completed......................................
+2022-07-03 12:06:04,194:INFO:master_model_container: 14
+2022-07-03 12:06:04,194:INFO:display_container: 2
+2022-07-03 12:06:04,195:INFO:GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=1128, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False)
+2022-07-03 12:06:04,195:INFO:compare_models() successfully completed......................................
+2022-07-03 13:05:37,869:WARNING:c:\Users\Adrien\Documents\GitHub\Kaggle_Titanic\myvenv\lib\site-packages\seaborn\_decorators.py:36: FutureWarning: Pass the following variables as keyword args: x, y. From version 0.12, the only valid positional argument will be `data`, and passing other arguments without an explicit keyword will result in an error or misinterpretation.
+  warnings.warn(
+
