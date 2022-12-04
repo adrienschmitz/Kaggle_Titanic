@@ -6,7 +6,7 @@
 
 <!-- Add buttons here -->
 
-Neste projeto, analisarei o conjunto de dados do Naufrágio do Titanic. Uma dos mais famosos desafios, e talvez o primeiro para muita gente, do Kaggle (https://www.kaggle.com/c/titanic), que é uma plataforma de competições de Machine Learning.  Analisarei e enviarei os resultados para a competição real, usando os modelos mais bem posicionados, segundo o modulo pycaret.
+In this project, I will analyze the Titanic Wreck dataset. One of the most famous challenges, and perhaps the first for many people, from Kaggle (https://www.kaggle.com/c/titanic), which is a Machine Learning competition platform. I will analyze and send the results to the real competition, using the best positioned models, according to the pycaret module.
 
 
 # Demo-Preview
